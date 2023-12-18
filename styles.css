@@ -1,6 +1,8 @@
 /* This is for the Bullshit project */
 * {background-color:#1ea77a;}
-body {text-align:center;color:#e06ea4}
+body {text-align:center;color:#e06ea4;font-family:monospace;}
 a {text-decoration:none;}
-img {height:auto;width:500px}
-div {}
+img {width:auto;}
+#Big-Box {}
+.flex-container {display:flex;flex-direction:row-reverse;gap:0;}
+.flex-container > div {flex:auto;}
