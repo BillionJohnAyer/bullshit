@@ -2,7 +2,12 @@
 * {background-color:#1ea77a;}
 body {text-align:center;color:#e06ea4;font-family:monospace;}
 a {text-decoration:none;}
-img {width:auto;}
-#Big-Box {}
-.flex-container {display:flex;flex-direction:row-reverse;gap:0;}
-.flex-container > div {flex:auto;}
+h1 {font-size:100pt;}
+p {font-size:60pt;}
+#Nav-Bar {display:flex;flex:auto;border:5px skyblue solid;width:auto;}
+#Nav-Bar > div {font-size:20pt;}
+.Nav-One {width:80%;}
+.Nav-Two {width:12%;}
+.Nav-Three {width:8%;}
+.flex-container {display:flex;flex-direction:column;gap:0;width:100%;}
+.flex-container > div {flex:1 1 auto;width:100%;}
